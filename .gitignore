@@ -6,3 +6,5 @@
 .vscode-test
 package-lock.json
 images/logo.psd
+/src/defs/defs.ts.bak
+/generator/api.js
