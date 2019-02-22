@@ -15,5 +15,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 1.0.2 - 2019-02-15
 - Initial release based on https://github.com/SE2Dev/CoD-Sense
 
-[Unreleased]: https://github.com/atrX/vscode-codscript/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/atrX/vscode-codscript/compare/v1.0.2...v1.1.0
+[Unreleased]: https://github.com/atrX/vscode-codscript/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/atrX/vscode-codscript/compare/1.0.2...1.1.0
