@@ -2049,15 +2049,6 @@ funcDef.example = `if (isAlive(gunOwner)) {
 defs.push(funcDef);
 
 funcDef = new DefFunction;
-funcDef.name = `isArray`;
-funcDef.decl = `isArray(<variable>)`;
-funcDef.desc = `Checks whether this variable is an array.`;
-funcDef.example = `if (isArray(var)) {
-	// Code
-}`;
-defs.push(funcDef);
-
-funcDef = new DefFunction;
 funcDef.name = `isCinematicPlaying`;
 funcDef.decl = `isCinematicPlaying()`;
 funcDef.desc = `Checks if a cinematic is playing.`;
