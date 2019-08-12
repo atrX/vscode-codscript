@@ -4336,7 +4336,7 @@ funcDef.example = `self showScoreBoard();`;
 defs.push(funcDef);
 
 funcDef = new DefFunction;
-funcDef.name = `showToPlay`;
+funcDef.name = `showToPlayer`;
 funcDef.decl = `<entity> showToPlayer(<player>)`;
 funcDef.desc = `Show the entity to a given client.`;
 funcDef.example = `self showToPlayer(player);`;

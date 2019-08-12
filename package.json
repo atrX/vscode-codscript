@@ -2,7 +2,7 @@
     "name": "vscode-codscript",
     "displayName": "CoDScript",
     "description": "Syntax highlighting for Call of Duty scripts",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "publisher": "atrX",
     "icon": "images/logo.png",
     "homepage": "https://github.com/atrX/vscode-codscript/blob/development/README.md",

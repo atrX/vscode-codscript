@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - No changes currently
 
+## [1.1.2] - 2019-12-08
+### Fixed
+- Fixed name of showToPlayer function (was mistakenly set to showToPlay)
+
 ## [1.1.1] - 2019-03-09
 ### Removed
 - Removed isArray function (apparently not a stock function)
