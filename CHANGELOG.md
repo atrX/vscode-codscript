@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - No changes currently
 
-## [1.1.2] - 2019-12-08
+## [1.1.3] - 2019-24-09
 ### Added
 - Added back some functions missing from vscode-codscript that were previously present in the old CoD-Sense plugin
 
