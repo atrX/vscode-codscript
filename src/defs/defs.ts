@@ -118,6 +118,20 @@ funcDef.example = `level.player allowLean(false);`;
 defs.push(funcDef);
 
 funcDef = new DefFunction;
+funcDef.name = `allowLeanLeft`;
+funcDef.decl = `<player> allowLeanLeft(<allow>)`;
+funcDef.desc = `Sets whether the player can lean left.`;
+funcDef.example = `level.player allowLeanLeft(false);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `allowLeanRight`;
+funcDef.decl = `<player> allowLeanRight(<allow>)`;
+funcDef.desc = `Sets whether the player can lean right.`;
+funcDef.example = `level.player allowLeanRight(false);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
 funcDef.name = `allowMelee`;
 funcDef.decl = `<player> allowMelee(<allow>)`;
 funcDef.desc = `Sets whether the player can melee.`;
@@ -1917,6 +1931,27 @@ funcDef.name = `getWeaponModel`;
 funcDef.decl = `getWeaponModel(<weapon>, <variant>)`;
 funcDef.desc = `Returns the name of the weapon model used for the given weapon.`;
 funcDef.example = `model = getWeaponModel("mosin_nagant_sniper", 0);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `getWeaponSlotAmmo`;
+funcDef.decl = `<player> getWeaponSlotAmmo(<weapon slot>)`;
+funcDef.desc = `Gets the ammo count for the weapon in the given slot.`;
+funcDef.example = `ammo = level.player getWeaponSlotAmmo("primary");`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `getWeaponSlotClipAmmo`;
+funcDef.decl = `<player> getWeaponSlotClipAmmo(<weapon slot>)`;
+funcDef.desc = `Gets the ammunition in the clip for the weapon in the given slot.`;
+funcDef.example = `ammo = level.player getWeaponSlotClipAmmo("primary");`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `getWeaponSlotWeapon`;
+funcDef.decl = `<player> getWeaponSlotWeapon(<weapon slot>)`;
+funcDef.desc = `Gets the name of the weapon in the given weapon slot.`;
+funcDef.example = `playerWeapon[0] = level.player getWeaponSlotWeapon("primary");`;
 defs.push(funcDef);
 
 funcDef = new DefFunction;
@@ -4270,6 +4305,34 @@ funcDef.name = `setWeaponAmmoStock`;
 funcDef.decl = `<player> setWeaponAmmoStock(<weapon>, <ammunition>)`;
 funcDef.desc = `Set the ammunition stockpile for the given weapon.`;
 funcDef.example = `level.player setWeaponAmmoStock("m16", 300);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `setWeaponClipAmmo`;
+funcDef.decl = `<player> setWeaponClipAmmo(<weapon>, <ammunition>)`;
+funcDef.desc = `Set the weapon clip ammunition for the given weapon.`;
+funcDef.example = `level.player setWeaponClipAmmo("m16", 30);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `setWeaponSlotAmmo`;
+funcDef.decl = `<player> setWeaponSlotAmmo(<weapon slot>, <ammo count>)`;
+funcDef.desc = `Sets the ammunition for the weapon in the given slot.`;
+funcDef.example = `level.player setWeaponSlotAmmo("primary", 125);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `setWeaponSlotClipAmmo`;
+funcDef.decl = `<player> setWeaponSlotClipAmmo(<weapon slot>, <ammo count>)`;
+funcDef.desc = `Sets the clip ammunition for the weapon in the given slot.`;
+funcDef.example = `level.player setWeaponSlotClipAmmo("primary", 30);`;
+defs.push(funcDef);
+
+funcDef = new DefFunction;
+funcDef.name = `setWeaponSlotWeapon`;
+funcDef.decl = `<player> setWeaponSlotWeapon(<weapon slot>, <weapon>)`;
+funcDef.desc = `Sets the weapon in the given slot.`;
+funcDef.example = `level.player setWeaponSlotWeapon("primary", "m16_sp");`;
 defs.push(funcDef);
 
 funcDef = new DefFunction;
