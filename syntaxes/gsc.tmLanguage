@@ -183,7 +183,7 @@
 			<!-- Functions Declarations -->
 			<dict>
 				<key>match</key>
-				<string>(_?[a-zA-Z\-_]\w*)(?=\s*\(.*\).*)</string>
+				<string>((?!if\b|else\b|switch\b|case\b|break(point)?\b|continue\b|for\b|while\b|return\b|default\b|waittillframeend\b|wait\b|endon\b|waittill\b|notify\b|thread\b)\b[a-zA-Z_]\w*)(?=\s*\(.*\).*)</string>
 
 				<key>captures</key>
 				<dict>
@@ -276,7 +276,7 @@
 			<key>function_call</key>
 			<dict>
 				<key>match</key>
-				<string>(_?[a-zA-Z\-_]\w*)(?=\s*\(.*\).*)</string>
+				<string>((?!if\b|else\b|switch\b|case\b|break(point)?\b|continue\b|for\b|while\b|return\b|default\b|waittillframeend\b|wait\b|endon\b|waittill\b|notify\b|thread\b)\b[a-zA-Z_]\w*)(?=\s*\(.*\).*)</string>
 
 				<key>captures</key>
 				<dict>
